@@ -8,3 +8,13 @@ C:\Users\Acer\Desktop\Gems\MyFirstGem\MyFirstGem\obj\Debug\MyFirstGame.csproj.Ge
 C:\Users\Acer\Desktop\Gems\MyFirstGem\MyFirstGem\obj\Debug\MyFirstGame.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Desktop\Gems\MyFirstGem\MyFirstGem\obj\Debug\MyFirstGem.exe
 C:\Users\Acer\Desktop\Gems\MyFirstGem\MyFirstGem\obj\Debug\MyFirstGem.pdb
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\bin\Debug\MyFirstGem.exe.config
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\bin\Debug\MyFirstGem.exe
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\bin\Debug\MyFirstGem.pdb
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGame.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGem.Form1.resources
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGem.Properties.Resources.resources
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGame.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGame.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGem.exe
+C:\Users\Acer\Desktop\Project GitHub\4\MyFirstGem\obj\Debug\MyFirstGem.pdb

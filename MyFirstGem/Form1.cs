@@ -57,8 +57,29 @@ namespace MyFirstGem
                 bullet.Left = -300;
                 bulletSpeed = 0;
             }
-            if(bullet.Top < -20)
+            if(bullet.Top < -30)
             {
+                shooting = false;
+            }
+            if (bullet.Bounds.IntersectsWith(enemyOne.Bounds))
+            {
+                score += 1;
+                enemyOne.Top = -450;
+                enemyOne.Left = rnd.Next(20, 600);
+                shooting = false;
+            }
+            if (bullet.Bounds.IntersectsWith(enemyTow.Bounds))
+            {
+                score += 1;
+                enemyTow.Top = -650;
+                enemyTow.Left = rnd.Next(20, 600);
+                shooting = false;
+            }
+            if (bullet.Bounds.IntersectsWith(enemyThree.Bounds))
+            {
+                score += 1;
+                enemyThree.Top = -750;
+                enemyThree.Left = rnd.Next(20, 600);
                 shooting = false;
             }
         }
