@@ -103,8 +103,9 @@
             // txtScore
             // 
             this.txtScore.BackColor = System.Drawing.Color.Transparent;
-            this.txtScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtScore.Location = new System.Drawing.Point(12, 167);
+            this.txtScore.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtScore.ForeColor = System.Drawing.Color.Yellow;
+            this.txtScore.Location = new System.Drawing.Point(12, 200);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(610, 175);
             this.txtScore.TabIndex = 1;

@@ -14,7 +14,7 @@ namespace MyFirstGem
     {
         bool goLeft, goRight, shooting, isGameOver;
         int score;
-        int playerSpeed = 12;
+        int playerSpeed = 20;
         int enemySpeed;
         int bulletSpeed;
         Random rnd = new Random();
@@ -81,6 +81,18 @@ namespace MyFirstGem
                 enemyThree.Top = -750;
                 enemyThree.Left = rnd.Next(20, 600);
                 shooting = false;
+            }
+            if (score == 5)
+            {
+                enemySpeed = 6;
+            }
+            if(score == 10)
+            {
+                enemySpeed = 8;
+            }
+            if (score == 15)
+            {
+                enemySpeed = 9;
             }
         }
 
