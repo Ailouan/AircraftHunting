@@ -47,7 +47,7 @@ namespace MyFirstGem
                 player.Left += playerSpeed;
             }
             // Player movement logic ends
-            if(shooting== true)
+            if(shooting == true)
             {
                 bulletSpeed = 15;
                 bullet.Top -= bulletSpeed;
@@ -65,21 +65,21 @@ namespace MyFirstGem
             {
                 score += 1;
                 enemyOne.Top = -450;
-                enemyOne.Left = rnd.Next(20, 600);
+                enemyOne.Left = rnd.Next(20, 450);
                 shooting = false;
             }
             if (bullet.Bounds.IntersectsWith(enemyTow.Bounds))
             {
                 score += 1;
                 enemyTow.Top = -650;
-                enemyTow.Left = rnd.Next(20, 600);
+                enemyTow.Left = rnd.Next(20, 450);
                 shooting = false;
             }
             if (bullet.Bounds.IntersectsWith(enemyThree.Bounds))
             {
                 score += 1;
                 enemyThree.Top = -750;
-                enemyThree.Left = rnd.Next(20, 600);
+                enemyThree.Left = rnd.Next(20, 450);
                 shooting = false;
             }
             if (score == 5)
